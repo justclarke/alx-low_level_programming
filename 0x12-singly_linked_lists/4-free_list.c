@@ -6,6 +6,7 @@
 void free_list(list_t *head)
 {
 	list_t *current, *new;
+
 	current = head;
 	while (current != NULL)
 	{
