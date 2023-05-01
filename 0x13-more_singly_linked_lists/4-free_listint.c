@@ -7,7 +7,7 @@ void free_listint(listint_t *head)
 {
 	listint_t *current, *new;
 
-	if(head == NULL)
+	if (head == NULL)
 	{
 		return;
 	}
