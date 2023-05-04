@@ -8,8 +8,8 @@ void print_binary(unsigned long int n)
 	unsigned int i = 1;
 
 	while (i <= n)
-		i = i << n;
-	i = i >> n;
+		i = i << 1;
+	i = i >> 1;
 	if (n == 0)
 		_putchar('0');
 	while (i > 0)
